@@ -203,13 +203,13 @@ max-width: 1100px;
    background-position:center top;
    background-repeat: no-repeat;
 }
-#quizgame1{
+.quizgame1{
     background-image: url(../pokeimg/155.jpg);
     min-height: 100vh;
     max-width: 100%;
 }
-#answer1{
-	background-image: url(../pokeimg/155.jpg);
+.answer1{
+    background-image: url(../pokeimg/155.jpg);
     min-height: 100vh;
     max-width: 100%;
 }
@@ -228,7 +228,7 @@ max-width: 1100px;
    margin-left: 36px;
 }
 .main-nav-Lv2 a {
-   color: #000;
+   color: #fff;
 }
 .main-nav-Lv2 a:hover {
    color: #0bd;
@@ -236,7 +236,7 @@ max-width: 1100px;
 .page-header-Lv2 {
    display: flex;
    justify-content: space-between;
-   color: #000;
+   color: #fff;
 }
 
 /*問題*/
@@ -247,7 +247,7 @@ max-width: 1100px;
    font-weight: nomal;
    text-align: center;
    margin-top: 5px;
-   color: #000;
+   color: #fff;
 }
 
 /*大きな背景画像*/
@@ -256,12 +256,12 @@ max-width: 1100px;
    background-position:center top;
    background-repeat: no-repeat;
 }
-#quizgame2{
+.quizgame2{
     background-image: url(../pokeimg/213.jpg);
     min-height: 100vh;
     max-width: 100%;
 }
-#answer2{
+.answer2{
 	background-image: url(../pokeimg/213.jpg);
     min-height: 100vh;
     max-width: 100%;
