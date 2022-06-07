@@ -80,8 +80,8 @@ const clickHandlar = (e) => {
   }else {
     //問題がなければこちらを実行
     window.alert ('終了！あなたの正解数は'+ score + '/' + quizlength + 'です！');
-    answer1.style.display = 'block';
-    quizgame1.style.display = 'none';
+    answer.style.display = 'block';
+    quizgame.style.display = 'none';
     document.getElementById('score2').textContent = 'あなたの正解数は' + quizlength + '問中 ' + score + '問です！';
     document.getElementById('js_qusetion1').textContent = 'Q1. ' + quiz[0].question;
     document.getElementById('correct1').textContent = '答え: ' + quiz[0].correct;
