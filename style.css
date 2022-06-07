@@ -1,0 +1,363 @@
+@charset "UTF-8";
+
+/*共通部分
+ー－－－－－－－－－－－－－－－－－*/
+html {
+	font-size: 100%;
+}
+body {
+	font-family: "Yu Gothic Medium",　"游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ　Pro W3", sans-serif;
+line-height: 1.7;
+	color: #432;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+.title{
+	font-size: 2.5rem;
+	color: #fff;
+}
+
+
+/*HEADER
+--------------------*/
+.main-nav {
+   display: flex;
+   font-size: 2rem;
+   text-transform: uppercase;
+   margin-top: 34px;
+   list-style: none;
+}
+.main-nav li {
+   margin-left: 36px;
+}
+.main-nav a {
+   color: #432;
+}
+.main-nav a:hover {
+   color: #0bd;
+}
+.page-header {
+   display: flex;
+   justify-content: space-between;
+}
+.wrapper {
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 0 4%;
+}
+/*HOME
+--------------------------*/
+ 
+.home-content  {
+   text-align: center;
+   margin-top: 10%;
+}
+.home-content p {
+   font-size: 2.5rem;
+   margin: 10px 0 42px;
+}
+/*見出し*/
+.page-title {
+   font-size: 5rem;
+   font-family: 'phikospher',serif;
+   text-transform:  uppercase;
+   font-weight: nomal;
+}
+/*ボタン*/
+.button {
+   font-size: 2rem;
+   background: #0bd;
+   color: #fff;
+   border-radius: 5px;
+   padding: 18px 32px;
+   text-align: center; 
+}
+.button:hover {
+   background: #0090aa;
+}
+}
+/*大きな背景画像*/
+.gig-bg{
+   background-size: cover;
+   background-position:center top ;
+   background-repeat: no-repeat ;
+}
+#home{
+    background-image: url(../pokeimg/pokemon_shirts_04.jpg);
+    min-height: 100vh;
+    max-width: 100%;
+}   
+#home .page-title{
+   text-transform: none;
+}
+#quizgame {
+max-width: 100%;
+   
+}
+#answer{
+  max-width: 100%;
+  display: none;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+.tab-result{
+   max-width: 100%;
+   text-align: center;
+   margin-top: 50px;
+   margin: 0 auto;
+}
+.tab-nav{
+   display: flex;	
+}
+.tab-nav-item{
+   margin-right: 5px;
+   background: #bbb;
+   color: #000;
+   padding: 20px 30px;
+   border-radius: 5px 5px 0 0 ;
+}
+.tab-nav-item.is-active {
+   background: #000;
+   color: #fff;
+}
+.tab-contents{
+   border: 1px solid #ccc;
+   padding: 20px;
+   background: #fff;
+}
+.tab-contents-item{
+   display: none;  
+}
+/*リセットボタン*/
+.reset{
+   font-size: 2rem;
+   background: #0bd;
+   color: #fff;
+   border-radius: 5px;
+   padding: 18px 32px; 
+   margin-top: 30px;
+   text-align: center;
+}
+.again{
+   text-align: center;
+}
+/*解答ボタン*/
+.content{
+   text-align: center;
+}
+.my-button {
+   font-size: 2rem;
+   background: #0bd;
+   color: #fff;
+   border-radius: 20px;
+   padding: 10px 20px;
+   margin: 15px;
+}
+.score1{
+   text-align: center;
+   color: #fff;
+}
+.score2{
+   color: #fff; 
+}
+.NextLv{
+   text-align: center;
+   margin-top: 10%;
+}
+/*Lv1------------*/
+/*HEADER
+--------------------*/
+.main-nav-Lv1 {
+   display: flex;
+   font-size: 2rem;
+   text-transform: uppercase;
+   margin-top: 34px;
+   list-style: none;
+}
+.main-nav-Lv1 li {
+   margin-left: 36px;
+}
+.main-nav-Lv1 a {
+   color: #fff;
+}
+.main-nav-Lv1 a:hover {
+   color: #0bd;
+}
+.page-header-Lv1 {
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+}
+
+/*問題*/
+#js-question-Lv1{ 
+   font-size: 3rem;
+   font-family: 'phikospher',serif;
+   text-transform:  uppercase;
+   font-weight: nomal;
+   text-align: center;
+   margin-top: 5px;
+   color: #fff;
+}
+
+/*大きな背景画像*/
+.Lv1-bg {
+   background-size: cover;
+   background-position:center top;
+   background-repeat: no-repeat;
+}
+.quizgame1{
+    background-image: url(../pokeimg/155.jpg);
+    min-height: 100vh;
+    max-width: 100%;
+}
+.answer1{
+	background-image: url(../pokeimg/155.jpg);
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+/*Lv2------------*/
+/*HEADER
+--------------------*/
+.main-nav-Lv2 {
+   display: flex;
+   font-size: 2rem;
+   text-transform: uppercase;
+   margin-top: 34px;
+   list-style: none;
+}
+.main-nav-Lv2 li {
+   margin-left: 36px;
+}
+.main-nav-Lv2 a {
+   color: #fff;
+}
+.main-nav-Lv2 a:hover {
+   color: #0bd;
+}
+.page-header-Lv2{
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+}
+
+/*問題*/
+#js-question-Lv2{ 
+   font-size: 3rem;
+   font-family: 'phikospher',serif;
+   text-transform:  uppercase;
+   font-weight: nomal;
+   text-align: center;
+   margin-top: 5px;
+   color: #fff;
+}
+
+/*大きな背景画像*/
+.Lv2-bg{
+   background-size: cover;
+   background-position:center top;
+   background-repeat: no-repeat;
+}
+.quizgame2{
+    background-image: url(../pokeimg/213.jpg);
+    min-height: 100vh;
+    max-width: 100%;
+}
+.answer2{
+   background-image: url(../pokeimg/213.jpg);
+    min-height: 100vh;
+    max-width: 100%;
+}
+/*Lv3------------*/
+/*HEADER
+--------------------*/
+.main-nav-Lv3 {
+   display: flex;
+   font-size: 2rem;
+   text-transform: uppercase;
+   margin-top: 34px;
+   list-style: none;
+}
+.main-nav-Lv3 li {
+   margin-left: 36px;
+}
+.main-nav-Lv3 a {
+   color: #fff;
+}
+.main-nav-Lv3 a:hover {
+   color: #0bd;
+}
+.page-header-Lv3{
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+}
+
+/*問題*/
+#js-question-Lv3{ 
+   font-size: 3.5rem;
+   font-family: 'phikospher',serif;
+   text-transform:  uppercase;
+   font-weight: nomal;
+   text-align: center;
+   margin-top: 5px;
+   color: #fff;
+}
+
+/*大きな背景画像*/
+.Lv3-bg{
+   background-size: cover;
+   background-position:center top;
+   background-repeat: no-repeat;
+}
+.quizgame3{
+    background-image: url(../pokeimg/170.jpg);
+    min-height: 100vh;
+    max-width: 100%;
+}
+.answer3{
+   background-image: url(../pokeimg/170.jpg);
+    min-height: 100vh;
+    max-width: 100%;
+}
+/*店舗情報・地図*/
+#location {
+   padding: 4% 0;
+}
+#location .wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+.location-info {
+   width: 22%;
+}
+.location-info p{
+   padding: 12px 10px ;
+}
+.location-map{
+   width: 74%;
+}
+/*iframe*/
+iframe{
+   width: 100%;
+}
+/* SNS */
+#sns {
+   padding: 4% 0 ;
+}
+#sns .wrapper{
+   display: flex;
+   justify-content: space-between;
+}
+#sns .sub-title {
+   margin-bottom: 30px;
+}
+.sns-box{
+   width: 30%;
+}
