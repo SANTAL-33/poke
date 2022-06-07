@@ -1,44 +1,44 @@
 (() => {
 const quiz =[
  {
-  question:'オーキド博士から最初に植物の種がついたポケモンは？',
-  answers: ['ワニノコ',
-  'ヒトカゲ',
-  'ミズガメ',
-  'フシギダネ'
+  question:'初代ポケモンで「ひきかえけん」を使用せずに自転車を購入するといくらかかる？',
+  answers: ['50万円',
+  '100万',
+  '10万',
+  '1万'
   ],
-  correct: 'フシギダネ'
+  correct: '100万'
  },{
-  question:'電気タイプのポケモンはどれ？',
-  answers: ['ピカチュウ',
-  'イワーク',
+  question:'初代ポケモンでLv51にもなって「にらみつける」を覚える伝説のポケモンは？',
+  answers: ['ファイアー',
+  'サンダー',
+  'フリーザー',
+  'ミュウツー'
+  ],
+  correct:'ファイアー'
+ },{question:'コイキングの色違いの色は何色？',
+  answers: ['青色',
+  'ピンク色',
+  '緑色',
+  '金色'
+  ],
+  correct:'金色'
+
+ },{question:'いわへびポケモン「イワーク」のこうげきりょくは以下のポケモンのうち、どれと同等？',
+  answers: ['リザードン',
+  'ギャラドス',
   'ポッポ',
-  'イーブイ'
+  'カイリュー'
+  ],
+  correct:'ポッポ'
+
+ },{question:'ピカチュウの英語名はどれ？',
+  answers: ['ボルトマウス',
+  'エレキマウス',
+  'ピカチュウ',
+  'エレクトリックラット'
   ],
   correct:'ピカチュウ'
- },{question:'パントマイムが得意なポケモン',
-  answers: ['バリヤード',
-  'イシツブテ',
-  'ルージュラ',
-  'タマタマ'
-  ],
-  correct:'バリヤード'
-
- },{question:'3本の尻尾を持っているポケモンは？',
-  answers: ['ロコン',
-  'ケンタロス',
-  'キュウコン',
-  'ブースター'
-  ],
-  correct:'ケンタロス'
-
- },{question:'夢を食べるポケモンといえば？',
-  answers: ['カラカラ',
-  'オコリザル',
-  'ユンゲラー',
-  'スリープ'
-  ],
-  correct:'スリープ'
 
  }
 ];
@@ -55,7 +55,7 @@ const quizgame = document.getElementById('quizgame');
 
 //クイズの問題文、選択しを定義
 const setupQuiz = () => {
-   document.getElementById('js-question-Lv1').textContent = quiz[quizIndex].question;
+   document.getElementById('js-question-Lv3').textContent = quiz[quizIndex].question;
    let buttonIndex = 0;
    while(buttonIndex < buttonLength){
   $button[buttonIndex].textContent = quiz[quizIndex].answers[buttonIndex];
