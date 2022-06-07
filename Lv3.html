@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Lv1</title>
+        <meta name="description" content="クイズに挑戦">
+
+<!--CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googlepis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+<body>
+<div id="quizgame" class="Lv1-bg">
+    <header class="page-header-Lv1 wrapper">
+            <a href="pokemon.html" class="title">ポケモンクイズ</a>
+            <nav>
+                <ul class="main-nav-Lv1">
+                    <li><a href="Lv1.html">Lv1</a></li>
+                    <li><a href="Lv2.html">Lv2</a></li>
+                    <li><a href="Lv3.html">Lv3</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div id="js-question-Lv1">問題を表示</div>  
+    <div class="Lv1-content wrapper">
+        <button type="button" class="my-button">Primary</button>
+        <button type="button" class="my-button">Primary</button>
+        <button type="button" class="my-button">Primary</button>
+        <button type="button" class="my-button">Primary</button>
+    </div>
+</div>
+    <div id="answer" class="Lv1-bg">
+        <div class="score1">
+            <h1>成績発表</h1>
+            <h2 id="score2">結果</h2>
+        </div>
+        <div class="tab-result" id="js-tab">
+            <div class="tab-nav">
+                <a href="" class="tab-nav-item is-active" data-nav="0">Q1</a>
+                <a href="" class="tab-nav-item" data-nav="1">Q2</a>
+                <a href="" class="tab-nav-item" data-nav="2">Q3</a>
+                <a href="" class="tab-nav-item" data-nav="3">Q4</a>
+                <a href="" class="tab-nav-item" data-nav="4">Q5</a>
+            </div>
+            <div class="tab-contents">
+                <div class="tab-contents-item" data-content="0">
+                    <h3 id="js_qusetion1">問題文</h3>
+                    <h2 id="correct1">正解</h2>
+                </div>
+                <div class="tab-contents-item" data-content="1">
+                    <h3 id="js_qusetion2">問題文</h3>
+                    <h2 id="correct2">正解</h2>
+                </div>
+                <div class="tab-contents-item" data-content="2">
+                    <h3 id="js_qusetion3">問題文</h3>
+                    <h2 id="correct3">正解</h2>
+                </div>
+                <div class="tab-contents-item" data-content="3">
+                    <h3 id="js_qusetion4">問題文</h3>
+                    <h2 id="correct4">正解</h2>
+                </div>
+                <div class="tab-contents-item" data-content="4">
+                    <h3 id="js_qusetion5">問題文</h3>
+                    <h2 id="correct5">正解</h2>
+                </div>
+            </div>
+        </div>
+    <input type="button" class="reset" value="もう一回！" id="reload">
+            <div class="NextLv">
+                <a class="button" href="Lv2.html">次のレベルへ</a>   
+            </div>
+    </div> 
+
+
+<script src="pokemon.js"></script>
+</body>
+
+</html>    
