@@ -69,7 +69,7 @@ img {
 }
 /*ボタン*/
 .button {
-   font-size: 2rem;
+   font-size: 1.75rem;
    background: #0bd;
    color: #fff;
    border-radius: 5px;
@@ -103,7 +103,6 @@ max-width: 100%;
   display: none;
   text-align: center;
   margin: auto;
-  margin-top: 50px;
 }
 .tab-result{
    max-width: 100%;
@@ -151,7 +150,7 @@ max-width: 100%;
    text-align: center;
 }
 .my-button {
-   font-size: 2rem;
+   font-size: 1.75rem;
    background: #0bd;
    color: #fff;
    border-radius: 20px;
