@@ -69,7 +69,7 @@ img {
 }
 /*ボタン*/
 .button {
-   font-size: 2rem;
+   font-size: 1.75rem;
    background: #0bd;
    color: #fff;
    border-radius: 5px;
@@ -145,6 +145,10 @@ max-width: 100%;
 }
 .again{
    text-align: center;
+}
+.restart{
+   text-align: center;
+   margin-top: 30px;
 }
 /*解答ボタン*/
 .content{
