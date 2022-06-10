@@ -69,7 +69,7 @@ img {
 }
 /*ボタン*/
 .button {
-   font-size: 1.75rem;
+   font-size: 2rem;
    background: #0bd;
    color: #fff;
    border-radius: 5px;
@@ -301,7 +301,7 @@ max-width: 100%;
 
 /*問題*/
 #js-question-Lv3{ 
-   font-size: 3.5rem;
+   font-size: 3rem;
    font-family: 'phikospher',serif;
    text-transform:  uppercase;
    font-weight: nomal;
@@ -361,40 +361,4 @@ iframe{
 .sns-box{
    width: 30%;
 }
-/*モバイル版
--------------------------*/
-@media(max-width: 600px){
-   .page-title{
-      font-size: 2.5rem;
-   }
 
-   /*HEADER*/
-   .main-nav{
-      font-size: 1rem;
-      margin-top: 10px;
-   }
-   .main-nav li {
-      margin: 0 20px;
-   }
-   /*HOME*/
-   .home-content{
-      margin-top: 20%;
-   }
-   .page-header
-         flex-direction: column;
-         align-items: center;
-   
-   /*店舗情報・地図/SNS*/
-   #location.wrapper,
-   #sns.wrapper{
-    flex-direction: column;
-   }
-   .location-info,
-   .location-map,
-   .sns-box{
-      width: 100%;
-   }
-   .sns-box{
-      margin-bottom: 30px;
-   }
-}
