@@ -6,7 +6,7 @@ html {
 	font-size: 100%;
 }
 body {
-	font-family: "Yu Gothic Medium",　"游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ　Pro W3", sans-serif;
+	font-family: "Yu Gothic Medium","游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ　Pro W3", sans-serif;
 line-height: 1.7;
 	color: #432;
 }
@@ -19,6 +19,7 @@ img {
 .title{
 	font-size: 2.5rem;
 	color: #fff;
+   margin-top: 30px;
 }
 
 
@@ -35,7 +36,7 @@ img {
    margin-left: 36px;
 }
 .main-nav a {
-   color: #432;
+   color: #fff;
 }
 .main-nav a:hover {
    color: #0bd;
@@ -75,11 +76,15 @@ img {
    border-radius: 5px;
    padding: 18px 32px;
    text-align: center; 
+   margin: 30px;
+}
+.start-button{
+   text-align: center;
 }
 .button:hover {
    background: #0090aa;
 }
-}
+
 /*大きな背景画像*/
 .gig-bg{
    background-size: cover;
@@ -111,7 +116,8 @@ max-width: 100%;
    margin: 0 auto;
 }
 .tab-nav{
-   display: flex;	
+   display: flex;
+   margin-top: 60px;	
 }
 .tab-nav-item{
    margin-right: 5px;
@@ -140,8 +146,11 @@ max-width: 100%;
    color: #fff;
    border-radius: 5px;
    padding: 18px 32px; 
-   margin-top: 30px;
+   margin: 30px 30px 20px;
    text-align: center;
+}
+.reset:hover {
+   background: #0090aa;
 }
 .again{
    text-align: center;
@@ -153,6 +162,7 @@ max-width: 100%;
 /*解答ボタン*/
 .content{
    text-align: center;
+   margin-top: 60px;
 }
 .my-button {
    font-size: 1.75rem;
@@ -162,12 +172,16 @@ max-width: 100%;
    padding: 10px 20px;
    margin: 15px;
 }
+.my-button:hover{
+   background: #0090aa;
+}
 .score1{
    text-align: center;
    color: #fff;
 }
 .score2{
    color: #fff; 
+   max-width: 80%;
 }
 .NextLv{
    text-align: center;
@@ -205,7 +219,7 @@ max-width: 100%;
    text-transform:  uppercase;
    font-weight: nomal;
    text-align: center;
-   margin-top: 5px;
+   margin-top: 50px;
    color: #fff;
 }
 
@@ -258,7 +272,7 @@ max-width: 100%;
    text-transform:  uppercase;
    font-weight: nomal;
    text-align: center;
-   margin-top: 5px;
+   margin-top: 50px;
    color: #fff;
 }
 
@@ -310,7 +324,7 @@ max-width: 100%;
    text-transform:  uppercase;
    font-weight: nomal;
    text-align: center;
-   margin-top: 5px;
+   margin-top: 50px;
    color: #fff;
 }
 
@@ -365,4 +379,74 @@ iframe{
 .sns-box{
    width: 30%;
 }
+@media (max-width: 600px){
+   .title {
+      font-size: 1.2rem;
+      margin-top: 30px;
+   }
+   /*HEADER*/
+   .page-header  {
+      font-size: 1rem;
+      margin-top: 10px;
+   }
+   .page-header-Lv1{
+      font-size: 1rem;
+   }
+   .page-header-Lv2{
+      font-size: 1rem;
+   }
+   .page-header-Lv3{
+      font-size: 1rem;
+   }
+   .main-nav{
+      font-size: 1rem;
+   }
+   .main-nav-Lv1{
+      font-size: 1rem;
+   }
+   .main-nav-Lv2{
+      font-size: 1rem;
+   }
+   .main-nav-Lv3{
+      font-size: 1rem;
+   }
+   /*HOME*/
+   .page-title{
+      font-size: 2.5rem;
+   }
+   #js-question-Lv1{
+      font-size: 2.3rem;
+      text-align: center;
+   }
+   #js-question-Lv2{
+      font-size: 2.3rem;
+      text-align: center;
+   }
+   #js-question-Lv3{
+      font-size: 2.3rem;
+      text-align: center;
+   }
+   .content {
+      display: grid;
+      text-align: center;
+      margin-top: 30px;
+   }
+   .my-button {
+      font-size: 1.75rem;
+   }
+   .button {
+      margin-bottom: 20px;
+      display: block;
+   }
+   .tab-nav-item {
+      padding: 15px 15px;
+   }
+   .tab-result {
+      max-width: 80%;
+   }
+   .reset {
+      display: block;
+   }
+}   
+
 
